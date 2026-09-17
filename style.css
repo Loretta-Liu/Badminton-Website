@@ -1,0 +1,35 @@
+* {
+    font-family:'Trebuchet MS', Arial, sans-serif
+}
+
+.hero-image {
+    background-image: url("https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=1200&h=400&fit=crop");
+    height: 352px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-text {
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
+}.two-column {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info {
+    font-size: 1.25em;
+}
