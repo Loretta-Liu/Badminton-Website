@@ -33,3 +33,10 @@ img {
 .info {
     font-size: 1.25em;
 }
+.card {
+    background-color: #1a2a6c;
+}
+
+.info h1 {
+    color: #1a2a6c;
+}
