@@ -1,4 +1,9 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
     font-family:'Trebuchet MS', Arial, sans-serif
 }
 
@@ -123,4 +128,30 @@ body {
 .hero-text {
     position: static;
     text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-text {
+        font-size: 2.5rem;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .three-column {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+}
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #f4f5f9;
+    color: #1a1a2e;
+    line-height: 1.6;
 }
