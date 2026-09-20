@@ -79,3 +79,7 @@ footer {
     padding: 25px;
     margin-top: 30px;
 }
+body {
+    background: #f4f5f9;
+    line-height: 1.6;
+}
