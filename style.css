@@ -113,3 +113,14 @@ body {
     top: 0;
     z-index: 100;
 } 
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    position: static;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
