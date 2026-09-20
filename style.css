@@ -60,3 +60,9 @@ img {
     text-decoration: none;
     margin-left: 25px;
 }
+.hero-subtext {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
